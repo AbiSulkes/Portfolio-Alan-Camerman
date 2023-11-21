@@ -1,0 +1,12 @@
+/*general*/
+body {
+    background-color: #fcfcf7;
+    font-family: 'Neue Haas Grotesk', sans-serif;
+    padding: 3em;
+}
+
+/*logo*/
+.logo {
+    height: 100px;
+    pointer-events: none;
+}
