@@ -1,9 +1,12 @@
-//css
+//CSS ESTILOS
 import './App.css';
 import FontComponent from './componentes/Tipografia';
 import './componentes/Logo.css';
-//Logo
+import './componentes/Carrusel.css';
+//LOGO
 import Logo from "./componentes/Logo";
+//CARRUSEL
+import Carrusel from './componentes/Carrusel';
 
 
 
@@ -16,6 +19,7 @@ function App() {
       <main>
       <FontComponent />
         <Logo />
+        <Carrusel />
       </main>
 
     </div>

@@ -1,0 +1,16 @@
+.dosImagenesContenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenIzquierda {
+    width: 650px;
+}
+
+.gifDerecha {
+    width: 350px;
+}
+
+.slideContent {
+    text-align: center;
+  }
