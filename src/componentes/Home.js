@@ -2,8 +2,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import './Home.css';
 
-const Carrusel = () => {
+const Home = () => {
     const settings = {
         dots: true,
         infinite: true,
@@ -13,7 +14,9 @@ const Carrusel = () => {
     };
 
     return (
-        <Slider {...settings}>
+        <div>
+        
+          <Slider {...settings}>
             <div className="slideContenido">
                 <div className="dosImagenesContenedor">
                     <img className="imagenIzquierda" src="https://abisulkes.alwaysdata.net/Primal%20market%20brand%20behance-04.png" alt="Imagen 1" />
@@ -36,7 +39,8 @@ const Carrusel = () => {
                 <img src="imagen3.jpg" alt="Slide 3" />
             </div>
         </Slider>
+        </div>
     );
-};
+}
 
-export default Carrusel;
+export default Home;

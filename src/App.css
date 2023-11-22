@@ -1,1 +1,28 @@
+/*Orden del navbar*/
+.enlace {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0.3em;
+    font-weight: 500;
+}
 
+.enlaces{
+    margin-left: 15.1rem;
+    margin-top: 1em;
+}
+
+/*Footer*/
+
+/* Agrega este estilo al final de tu archivo CSS o en el lugar adecuado */
+footer {
+    margin-left: 39.7rem;
+    margin-top: -1.1em;
+  }
+  
+  footer .contacto {
+    display: inline-block; 
+    margin: 0 15px;
+  }
+  

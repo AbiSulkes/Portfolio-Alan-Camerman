@@ -7,6 +7,6 @@ body {
 
 /*logo medidas*/
 .logo {
-    height: 100px;
+    width: 180px;
     pointer-events: none;
 }
