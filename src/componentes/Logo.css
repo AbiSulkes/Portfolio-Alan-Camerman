@@ -1,12 +1,10 @@
-/*general*/
-body {
-    background-color: #fcfcf7;
-    font-family: 'Neue Haas Grotesk', sans-serif;
-    padding: 3em;
-}
+
 
 /*logo medidas*/
 .logo {
-    width: 180px;
+    width: 132px;
+    height: auto;
     pointer-events: none;
+    position: absolute;
+    margin-left: 150px;
 }

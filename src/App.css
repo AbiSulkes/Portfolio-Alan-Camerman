@@ -1,28 +1,63 @@
-/*Orden del navbar*/
-.enlace {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: black;
-    margin-bottom: 0.3em;
-    font-weight: 500;
+/*general*/
+body {
+  background-color: #fcfcf7;
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  margin: 0; /* Elimina el margen predeterminado del body */
+
 }
 
-.enlaces{
-    margin-left: 15.1rem;
-    margin-top: 1em;
+/* Contenedor para los contenidos */
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Al menos el 100% del alto de la ventana */
+}
+
+/* Estilos para el espacio encima de los contenidos */
+.contenedor::before {
+  content: "";
+  flex: 1;
+}
+
+/* Estilos para el espacio debajo de los contenidos */
+.contenedor::after {
+  content: "";
+  flex: 1;
+}
+
+/* Estilos para los contenidos */
+.contenidos {
+  padding: 3em;
+  padding-top: 2rem;
+}
+
+/*Orden del navbar*/
+.enlace {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 0.3em;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.enlaces {
+  margin-left: 20.1rem;
+  margin-top: 1em;
 }
 
 /*Footer*/
 
 /* Agrega este estilo al final de tu archivo CSS o en el lugar adecuado */
 footer {
-    margin-left: 39.7rem;
-    margin-top: -1.1em;
-  }
-  
-  footer .contacto {
-    display: inline-block; 
-    margin: 0 15px;
-  }
-  
+  margin-left: 44.1rem;
+  margin-top: -4.1em;
+}
+
+footer .contacto {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 12px;
+}
+
