@@ -1,10 +1,7 @@
-
-
 /*logo medidas*/
 .logo {
     width: 132px;
     height: auto;
-    pointer-events: none;
     position: absolute;
     margin-left: 124px;
     margin-top: -65px;

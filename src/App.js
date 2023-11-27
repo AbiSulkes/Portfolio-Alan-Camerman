@@ -4,7 +4,7 @@ import Animacion from './componentes/Animacion';
 import Logo from "./componentes/Logo"
 import { FaCheck } from 'react-icons/fa';
 import FontComponent from './componentes/Tipografia';
-import Home from './componentes/Home';
+
 import About from './componentes/About';
 import Branding from './componentes/Branding';
 import Production from './componentes/Production';
@@ -53,17 +53,19 @@ function App() {
               {/* ... otros componentes ... */}
 
               <Routes>
-                <Route path="/" element={<Home />} />
+             
                 <Route path="/About" element={<About />} />
-                <Route path="/Branding" element={<Branding />} />
-                <Route path="/Production" element={<Production />} />
+                <Route path="/Branding" element={<Branding />} /> 
                 <Route path="/Contact" element={<Contact />} />
+                <Route path="/" exact={true} element={<Production />} />
               </Routes>
+
+
 
               <div className='enlaces'>
                 <Link className='enlace' to="/About">ABOUT</Link>
                 <Link className='enlace' to="/Branding">BRANDING</Link>
-                <Link className='enlace' to="/Production">PRODUCTION</Link>
+                <Link className='enlace' to="/">PRODUCTION</Link>
                 <Link className='enlace' to="/Contact">CONTACT</Link>
               </div>
 
