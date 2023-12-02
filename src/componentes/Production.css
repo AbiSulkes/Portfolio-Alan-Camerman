@@ -1,52 +1,23 @@
-
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px; /* Ajusta según sea necesario */
-  }
-  
-  .fade-in {
-    animation: fade-in 1s forwards;
-  }
-  
-  .fade-out {
-    animation: fade-out 1s forwards;
-  }
-  
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes fade-out {
-    from {
-      opacity: 1;
-    }
-    to {
-      opacity: 0;
-    }
-  }
-  
-
-
-.dosImagenesContenedor {
-    display: flex;
-    justify-content: center;
+/* Contact.css */
+.arrow {
+  position: absolute;
+  top: 50%;
+  width: 40px; /* Ajusta el ancho según tus necesidades */
+  height: 40px; /* Ajusta la altura según tus necesidades */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1; /* Ajusta el índice z según tus necesidades para que esté sobre el carrusel */
+  font-size: 24px;
 }
 
-.imagenIzquierda {
-    width: 510px;
+.arrow-prev {
+  left: 200px; /* Ajusta la posición izquierda según tus necesidades */
 }
 
-.gifDerecha {
-    width: 300px;
+.arrow-next {
+  right: 200px; /* Ajusta la posición derecha según tus necesidades */
 }
 
-.slideContent {
-    text-align: center;
-}
+

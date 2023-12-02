@@ -7,6 +7,7 @@ const Logo = () => {
     <div>
       <Link to="/">
         <img className='logo' src="https://abisulkes.alwaysdata.net/logoAlanCamerman.png" alt="logoAlanCamerman" />
+        
       </Link>
     </div>
   );

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import Animacion from './componentes/Animacion';
 import Logo from "./componentes/Logo"
-import { FaCheck } from 'react-icons/fa';
+//import { FaCheck } from 'react-icons/fa';
 import FontComponent from './componentes/Tipografia';
 
 import About from './componentes/About';
@@ -53,9 +53,9 @@ function App() {
               {/* ... otros componentes ... */}
 
               <Routes>
-             
+
                 <Route path="/About" element={<About />} />
-                <Route path="/Branding" element={<Branding />} /> 
+                <Route path="/Branding" element={<Branding />} />
                 <Route path="/Contact" element={<Contact />} />
                 <Route path="/" exact={true} element={<Production />} />
               </Routes>
@@ -72,17 +72,19 @@ function App() {
             </Contenidos>
 
             <footer className="contacto">
-      <div className="contactoHijo">
-        <a href={`https://wa.me/${teléfono}`} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
-          <span>{teléfono}</span>
-        </a>
-        <FaCheck className="icono" style={{ marginLeft: '5px' }} />
-      </div>
-      <a href={`mailto:${email}`} style={{ color: 'black', textDecoration: 'none' }}>
-        <p className="contactoHijo1">{email}</p>
-      </a>
-      <p className="contactoHijo2">-34.588889°, -58.430556°</p>
-    </footer>
+              <div className="contactoHijo">
+                <a href={`https://wa.me/${teléfono}`} target="_blank" rel="noopener noreferrer" style={{ color: "#222222", textDecoration: 'none' }}>
+                  <span>{teléfono} √</span>
+                </a>
+                {/* ... <FaCheck className="icono" style={{ marginLeft: '5px' }} /> ... */}
+              </div>
+
+              <a href={`mailto:${email}`} style={{ color: "#222222", textDecoration: 'none' }}>
+                <p className="contactoHijo1">{email}</p>
+              </a>
+
+              <p className="contactoHijo2">-34.588889°, -58.430556°</p>
+            </footer>
 
           </Contenedor>
         </div>
