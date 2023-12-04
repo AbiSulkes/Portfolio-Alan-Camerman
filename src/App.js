@@ -14,6 +14,7 @@ import './componentes/Production.css';
 import "./App.css"
 
 function App() {
+    //Animacion logo principal
   const [showLogo, setShowLogo] = useState(true);
 
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
     };
   }, []);
 
+// Contenedores principales
   const Contenedor = ({ children }) => (
     <div className="contenedor">
       {children}
@@ -39,6 +41,8 @@ function App() {
       {children}
     </main>
   );
+
+  // Tel & Email
   const teléfono = '+542304587859'; // Número de teléfono para WhatsApp
   const email = 'Alaan.camerman@gmail.com'; // Dirección de correo electrónico
   return (
@@ -72,19 +76,24 @@ function App() {
             </Contenidos>
 
             <footer className="contacto">
-              <div className="contactoHijo">
-                <a href={`https://wa.me/${teléfono}`} target="_blank" rel="noopener noreferrer" style={{ color: "#222222", textDecoration: 'none' }}>
-                  <span>{teléfono} √</span>
-                </a>
-                {/* ... <FaCheck className="icono" style={{ marginLeft: '5px' }} /> ... */}
-              </div>
+  <div className="telefonoContainer">
+    <div className="contactoHijo">
+      <a href={`https://wa.me/${teléfono}`} target="_blank" rel="noopener noreferrer" style={{ color: "#222222", textDecoration: 'none' }}>
+        <span>{teléfono} <span>√</span></span>
+      </a>
+    </div>
+  </div>
 
-              <a href={`mailto:${email}`} style={{ color: "#222222", textDecoration: 'none' }}>
-                <p className="contactoHijo1">{email}</p>
-              </a>
+  <div className="emailContainer">
+    <a href={`mailto:${email}`} style={{ color: "#222222", textDecoration: 'none' }}>
+      <p className="contactoHijo1">{email}</p>
+    </a>
+  </div>
 
-              <p className="contactoHijo2">-34.588889°, -58.430556°</p>
-            </footer>
+  <div className="coordenadasContainer">
+    <p className="contactoHijo2">-34.588889°, -58.430556°</p>
+  </div>
+</footer>
 
           </Contenedor>
         </div>

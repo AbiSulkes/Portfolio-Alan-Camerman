@@ -60,34 +60,45 @@ body {
   display: flex;
   flex-direction: row;
   font-size: 12px;
-  margin-left: 48.5rem;
+  /*margin-left: 48.5rem;*/
   margin-top: -6.4em;
-  ;
- 
 }
 
 .contactoHijo {
   margin-top: 1em;
+  text-align: end;
 }
 
-.icono{
+.icono {
   color: green;
 }
 
-.contactoHijo:hover{
+.contactoHijo:hover {
   font-weight: bold;
 }
 
-
-
 .contactoHijo1 {
-  margin-left: 40px;
+  text-align: end;
 }
 
-.contactoHijo1:hover{
+.contactoHijo1:hover {
   font-weight: bold;
 }
 
 .contactoHijo2 {
-  margin-left: 25px;
+  margin-left: 43px;
+}
+
+/* Agrega estos estilos para separar visualmente los elementos */
+.telefonoContainer {
+  flex: 3; /* Ajusta este valor según tus necesidades */
+}
+
+.emailContainer {
+  flex: 1; /* Ajusta este valor para dar más ancho a la caja de email */
+}
+
+.coordenadasContainer {
+  flex: 2;
+  /* Puedes ajustar el espacio entre las cajas */
 }
