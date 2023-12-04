@@ -34,6 +34,7 @@ body {
 }
 
 /*Orden del navbar*/
+/* Estilo común para todos los enlaces */
 .enlace {
   display: flex;
   flex-direction: column;
@@ -41,8 +42,16 @@ body {
   margin-bottom: 0.3em;
   font-weight: 500;
   font-size: 12px;
-  color:#222222;
+  color: #222222;
 }
+
+/* Estilo específico para el enlace "Contact" */
+.enlace-contact {
+  max-width: 100px; /* Ajusta el valor según tus necesidades */
+}
+
+/* Otros estilos... */
+
 
 .enlace:hover{
   font-weight: bold;
@@ -61,12 +70,14 @@ body {
   flex-direction: row;
   font-size: 12px;
   /*margin-left: 48.5rem;*/
-  margin-top: -6.4em;
+  /*margin-top: -6.4em;*/
+  margin-top: -5.2em;
 }
 
 .contactoHijo {
   margin-top: 1em;
   text-align: end;
+  
 }
 
 .icono {
@@ -92,6 +103,7 @@ body {
 /* Agrega estos estilos para separar visualmente los elementos */
 .telefonoContainer {
   flex: 3; /* Ajusta este valor según tus necesidades */
+  
 }
 
 .emailContainer {

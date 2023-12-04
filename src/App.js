@@ -70,7 +70,7 @@ function App() {
                 <Link className='enlace' to="/About">ABOUT</Link>
                 <Link className='enlace' to="/Branding">BRANDING</Link>
                 <Link className='enlace' to="/">PRODUCTION</Link>
-                <Link className='enlace' to="/Contact">CONTACT</Link>
+                <Link className='enlace enlace-contact'   to="/Contact">CONTACT</Link>
               </div>
 
             </Contenidos>
