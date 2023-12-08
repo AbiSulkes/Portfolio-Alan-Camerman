@@ -20,44 +20,44 @@ const Production = () => {
     return (
         <Slider {...settings}>
             <div>
-                <h3>Slide 1</h3>
-                <img src="https://abisulkes.alwaysdata.net/fondoImg.png" alt="Slide 1" />
+               
+                <div className="slideContenido">
+                <div className="dosImagenesContenedor">
+                    <img className="imagenIzquierda" src="https://abisulkes.alwaysdata.net/Production%201.1.png" alt="imagen1" />
+                    <img className="gifDerecha" src="https://abisulkes.alwaysdata.net/giff2.gif" alt="ImagenGif2" />
+                </div>
+            </div>
+
             </div>
             <div>
-                <h3>Slide 2</h3>
-                <img src="https://abisulkes.alwaysdata.net/fondoImg.png" alt="Slide 1" />
+                <img src="https://abisulkes.alwaysdata.net/Production%202.png" alt="imagen2" />
             </div>
             <div>
-                <h3>Slide 3</h3>
-                <img src="https://abisulkes.alwaysdata.net/fondoImg.png" alt="Slide 1" />
+                <img src="https://abisulkes.alwaysdata.net/Production%203.png" alt="imagen3" />
             </div>
             <div>
-                <h3>Slide 4</h3>
-                <img src="https://abisulkes.alwaysdata.net/fondoImg.png" alt="Slide 1" />
+                <img src="https://abisulkes.alwaysdata.net/Production%204.png" alt="imagen4" />
             </div>
             <div>
-                <h3>Slide 5</h3>
-                <img src="https://abisulkes.alwaysdata.net/fondoImg.png" alt="Slide 1" />
+                <img src="https://abisulkes.alwaysdata.net/Production%205.png" alt="imagen5" />
             </div>
             <div>
-                <h3>Slide 6</h3>
-                <img src="https://abisulkes.alwaysdata.net/fondoImg.png" alt="Slide 1" />
+                <img src="https://abisulkes.alwaysdata.net/Production%206.png" alt="imagen6" />
             </div>
             <div>
-                <h3>Slide 7</h3>
-                <img src="https://abisulkes.alwaysdata.net/fondoImg.png" alt="Slide 1" />
+                <img src="https://abisulkes.alwaysdata.net/Production%207.png" alt="imagen7" />
             </div>
             <div>
-                <h3>Slide 8</h3>
-                <img src="https://abisulkes.alwaysdata.net/fondoImg.png" alt="Slide 1" />
+                <img src="https://abisulkes.alwaysdata.net/Production%208.png" alt="imagen8" />
             </div>
             <div>
-                <h3>Slide 9</h3>
-                <img src="https://abisulkes.alwaysdata.net/fondoImg.png" alt="Slide 1" />
+                <img src="https://abisulkes.alwaysdata.net/Production%209.png" alt="imagen9" />
             </div>
             <div>
-                <h3>Slide 10</h3>
-                <img src="https://abisulkes.alwaysdata.net/fondoImg.png" alt="Slide 1" />
+                <img src="https://abisulkes.alwaysdata.net/Production%2010.png" alt="imagen10" />
+            </div>
+            <div>
+                <img src="https://abisulkes.alwaysdata.net/Production%2011.png" alt="imagen11" />
             </div>
         </Slider>
 

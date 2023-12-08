@@ -21,3 +21,16 @@
 }
 
 
+.dosImagenesContenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.imagenIzquierda {
+  width: 590px;
+}
+
+.gifDerecha {
+  width: 300px;
+}
+
