@@ -1,0 +1,46 @@
+
+/* Ajustes para Mobile */
+@media only screen and (max-width: 700px) and (min-width: 200px) {
+  .imgAbout {
+    display: none;
+  }
+
+  .imagenesContenedor {
+    display: none;
+  }
+
+  .imgMobile{
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 100%; /* Ajusta el ancho al ancho del contenedor */
+    width: 100%;
+    height: auto; /* Para mantener la proporción de aspecto original de la imagen */
+  }
+
+  .textoMobile{
+    font-size: 13px;
+    margin-top: 1rem;
+    margin:1rem;
+  }
+
+  .firma{
+    float: right; /* Coloca la firma en el lado derecho */
+    width: 80px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Mantiene la proporción de aspecto original */
+    margin-right: 1rem;
+  }
+}
+
+/* Ajustes para Desktop */
+@media only screen and (max-width: 2000px) and (min-width: 700px) {
+
+  .imagenesContenedor {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Mobile {
+    display: none;
+  }
+
+}

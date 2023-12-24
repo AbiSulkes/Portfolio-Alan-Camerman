@@ -83,6 +83,7 @@ function App() {
       </a>
     </div>
   </div>
+  <div class="linea"></div>
 
   <div className="emailContainer">
     <a href={`mailto:${email}`} style={{ color: "#222222", textDecoration: 'none' }}>
@@ -93,6 +94,7 @@ function App() {
   <div className="coordenadasContainer">
     <p className="contactoHijo2">-34.588889°, -58.430556°</p>
   </div>
+
 </footer>
 
           </Contenedor>

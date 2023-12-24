@@ -1,36 +1,95 @@
-/* Contact.css */
-.arrow {
-  position: absolute;
-  top: 50%;
-  width: 40px; /* Ajusta el ancho según tus necesidades */
-  height: 40px; /* Ajusta la altura según tus necesidades */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 1; /* Ajusta el índice z según tus necesidades para que esté sobre el carrusel */
-  font-size: 24px;
+/* Ajustes para Mobile */
+@media only screen and (max-width: 700px) and (min-width: 200px) {
+  .arrow {
+    position: relative;
+    margin-top: 10px;
+    width: 8%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 18px;
+  }
+
+  .arrow-prev {
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .arrow-next {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .dosImagenesContenedor {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagenIzquierda {
+    width: 90%; /* Ajusta el ancho de la imagen izquierda en porcentaje */
+    max-width: 500px; /* Ajusta el ancho máximo de la imagen izquierda */
+    height: auto;
+  }
+
+  .gifDerecha {
+    width: 45%; /* Ajusta el ancho del gif derecho en porcentaje */
+    max-width: 300px; /* Ajusta el ancho máximo del gif derecho */
+    height: auto;
+  }
+
+  .imagenSlide {
+    display: block;
+    margin: 0 auto;
+    width: 100%; /* Cambiado a 100% para ocupar el ancho completo del contenedor padre */
+    max-width: 800px;
+    height: auto;
+  }
 }
 
-.arrow-prev {
-  left: 200px; /* Ajusta la posición izquierda según tus necesidades */
-}
 
-.arrow-next {
-  right: 200px; /* Ajusta la posición derecha según tus necesidades */
-}
-
-
-.dosImagenesContenedor {
-  display: flex;
-  justify-content: center;
-}
-
-.imagenIzquierda {
-  width: 590px;
-}
-
-.gifDerecha {
-  width: 300px;
-}
+/* Ajustes para Desktop */
+@media only screen and (max-width: 2000px) and (min-width: 700px) {
+  .arrow {
+    position: absolute;
+    top: 50%;
+    width: 40px; /* Ajusta el ancho según tus necesidades */
+    height: 40px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1; /* Ajusta el índice z según tus necesidades para que esté sobre el carrusel */
+    font-size: 24px;
+  }
+  
+  .arrow-prev {
+    left: 200px; /* Ajusta la posición izquierda según tus necesidades */
+  }
+  
+  .arrow-next {
+    right: 200px; /* Ajusta la posición derecha según tus necesidades */
+  }
+  
+  
+  .dosImagenesContenedor {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imagenIzquierda {
+    width: 590px;
+  }
+  
+  .gifDerecha {
+    width: 300px;
+  }
+  
+    }
 

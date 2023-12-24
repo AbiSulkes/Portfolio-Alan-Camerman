@@ -3,3 +3,10 @@
     width: 160px;
     height: auto;
 }
+
+/* Ajustes para Mobile */
+@media only screen and (max-width: 700px) and (min-width: 200px) {
+    .logo2 {
+        display: none;
+    }
+}

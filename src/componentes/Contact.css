@@ -1,0 +1,31 @@
+
+/* Ajustes para Mobile */
+@media only screen and (max-width: 700px) and (min-width: 200px) {
+
+    .imagenesContenedor {
+      display: none;
+    }
+  
+    .imgMobile{
+      display: block;
+      margin: 0 auto; /* Centra horizontalmente */
+      max-width: 100%; /* Ajusta el ancho al ancho del contenedor */
+      width: 100%;
+      height: auto; /* Para mantener la proporción de aspecto original de la imagen */
+    }
+
+  }
+  
+  /* Ajustes para Desktop */
+  @media only screen and (max-width: 2000px) and (min-width: 700px) {
+  
+    .imagenesContenedor {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .Mobile {
+      display: none;
+    }
+  
+  }

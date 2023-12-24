@@ -1,8 +1,27 @@
 /*logo medidas*/
+
+/* Ajustes para Mobile */
+@media only screen and (max-width: 700px) and (min-width: 200px) {
+    .logo {
+        width: 80px;
+        position: static;
+        margin: 0 auto; /* Centra horizontalmente */
+        display: block;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        opacity: 60%;
+    }
+}
+
+/* Ajustes para Desktop */
+@media only screen and (max-width: 2000px) and (min-width: 700px) {
+  
 .logo {
     width: 132px;
     height: auto;
-    position: absolute;
+    overflow: hidden;
     margin-left: 124px;
-    margin-top: -65px;
+    margin-top: -15px;
 }
+  
+  }
