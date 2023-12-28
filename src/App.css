@@ -32,7 +32,7 @@ body {
 
   /* Estilos para los contenidos */
   .contenidos {
-    padding: 3em;
+    /*padding: 3em;*/
     padding-top: 2rem;
   }
 
@@ -62,7 +62,7 @@ body {
   }
 
   .enlaces {
-    margin-left: 19.2rem;
+    margin-left: 22rem;
     margin-top: 1em;
   }
 
@@ -78,7 +78,7 @@ body {
     font-size: 12px;
     /*margin-left: 48.5rem;*/
     /*margin-top: -6.4em;*/
-    margin-top: -5.2em;
+    margin-top:  -1.2em;
   }
 
   .contactoHijo {

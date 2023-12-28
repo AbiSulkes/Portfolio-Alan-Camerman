@@ -1,21 +1,28 @@
 /* Ajustes para Desktop */
 @media only screen and (max-width: 2000px) and (min-width: 700px) {
-
-    .container,
-    .container-fluid,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl,
-    .container-xxl {
-        --bs-gutter-x: 1.5rem;
+    
+    #scroll-container {
+        transition: background-color 0.3s ease;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 4rem;
+        padding-left: 12rem;
+      }
+      
+      
+      .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        --bs-gutter-x: 35rem;
         --bs-gutter-y: 0;
         width: 100%;
-        padding-right: calc(var(--bs-gutter-x) * .5);
-        padding-left: calc(var(--bs-gutter-x) * .5);
-        margin-right: 0rem;
-        margin-left: auto;
-    }
+        margin-right:  0 auto;
+        margin-left:  0 auto;
+        max-width: 100%;
+      }
+      
+
+     .TituloLogo{
+        padding-top: 1rem;
+     }
 
     /* ...  1  ... */
     .caja1 {
